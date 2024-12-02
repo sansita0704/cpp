@@ -11,7 +11,8 @@ int main()
         cout << numbers[i] << endl;
     */
     // If we have to add any extra element in array in future then we have to change the condition.
-    // So, to make it general, we use sizeof().
+    // So, to make it general, we use sizeof operator.
+    // sizeof(numbers) will return the no. of bytes occupied by the array 'numbers' = 3 * no. of bytes occupied by an int. 
 
     for (int i = 0; i < sizeof(numbers) / sizeof(int); i++)
         // sizeof(numbers): 12
@@ -28,12 +29,12 @@ int main()
     // And then it will be printed on a seperate line.
     // Here, we don't work with index rather we work on actual integers.
 
-    // Range based for loop on strings
+    // Range based for loop on strings.
 
     string name = "Sansita Jain";
     for (char ch : name)
         cout << ch << endl;
-    // here ch is storing each character of the string in each iteration
+    // Here, ch is storing each character of the string in each iteration.
 
     // Exercise
 

@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
     cout << sizeof(int) << endl;
-    // sizeof() returns the no. of bytes required to store a data type in the machine.
+    // sizeof operator returns the no. of bytes required to store a data type in the machine.
+    // It is an operator not a function.
 
     // calling min() from a class called 'numeric_limits'.
     cout << numeric_limits<int>::min() << endl

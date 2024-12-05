@@ -28,7 +28,7 @@ void printNumbers(int numbers[], int size)
 int main()
 {
     int numbers[] = {10, 20, 30};
-    printNumbers(numbers, sizeof(numbers) / sizeof(int));
+    printNumbers(numbers, size(numbers));
 
     return 0;
 }

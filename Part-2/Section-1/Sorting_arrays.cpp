@@ -23,7 +23,7 @@ int main()
     // In bubble sort algorithm, after each pass next largest element bubbles up and moves to its correct position.
 
     int numbers[] = {10, 30, 5};
-    sort(numbers, sizeof(numbers) / sizeof(int));
+    sort(numbers, size(numbers));
 
     for (int number : numbers)
         cout << number << endl;

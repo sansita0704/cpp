@@ -12,12 +12,10 @@ int main()
     // But in some cases (like copy and compare array), we have to access elements using their index.
     // In that case, we have to use a for loop.
 
-    /*
     for (int i = 0; i < size(numbers); i++)
         // The size() returns the number of elements or characters present in a container (array, class, etc.) or string.
         // It is defined in std namespace.
         cout << numbers[i] << endl;
-    */
 
     // To copy an array
 
@@ -37,9 +35,9 @@ int main()
     // So in C++, we can't initialize an array using another array.
     // If we want to copy an array we have to copy each element of first array at a given position to the second array at that same position.
 
-    int second[sizeof(first) / sizeof(int)];
+    int second[size(first)];
 
-    for (int i = 0; i < sizeof(first) / sizeof(int); i++)
+    for (int i = 0; i < size(first); i++)
         second[i] = first[i];
 
     for (int number : second)
@@ -57,7 +55,7 @@ int main()
 
     bool areEqual = true;
 
-    for (int i = 0; i < sizeof(first) / sizeof(int); i++)
+    for (int i = 0; i < size(first); i++)
         if (first[i] != second[i])
         {
             areEqual = false;

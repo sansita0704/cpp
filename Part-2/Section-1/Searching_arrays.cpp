@@ -18,7 +18,7 @@ int main()
     // The cost of an algorithm refers to the amount of resources, such as time and space, required to execute the algorithm.
 
     int numbers[] = {10, 20, 30};
-    short index = search(numbers, sizeof(numbers) / sizeof(int), 10);
+    short index = search(numbers, size(numbers), 10);
     cout << index;
 
     return 0;

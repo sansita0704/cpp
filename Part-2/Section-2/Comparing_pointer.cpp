@@ -27,9 +27,7 @@ int main()
     // Exercise
 
     int numbers[] = {10, 20, 30};
-    int size = sizeof(numbers) / sizeof(int);
-
-    int *ptr = &numbers[size - 1];
+    int *ptr = &numbers[size(numbers) - 1];
     cout << *ptr << endl;
 
     while (ptr >= numbers)

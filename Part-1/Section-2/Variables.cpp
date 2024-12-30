@@ -13,7 +13,7 @@ int main()
 
     double sales = 9.99;
     // Variable initialization = Declaration + Assigning the value
-    // double: used to store decimel values.
+    // double: used to store decimal values.
 
     std::cout << file_size << "\n";
     std::cout << sales << "\n";

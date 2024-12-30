@@ -28,8 +28,9 @@ e.g. - iostream has the capability of taking input from the user and printing so
 
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, world!"; 
+int main()
+{
+    std::cout << "Hello, world!";
     // This is called a statement.
     // 'std' is short for standard library.
     // It is like a bucket or container for the features that are currently available to us.
@@ -39,9 +40,9 @@ int main() {
     // 'cout' is short for character out.
     // It is used to output one or more characters on the screen.
     // Just like we terminate a sentence using a full stop, in C++ we do that using a semi-colon.
-    
-    return 0;     
-    // returned value tells the os if the program is run successfully or not. 
+
+    return 0;
+    // returned value tells the os if the program is run successfully or not.
     // if there is an error it will return any value other than 0.
 }
 /*

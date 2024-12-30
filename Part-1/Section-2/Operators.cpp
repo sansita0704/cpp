@@ -13,7 +13,7 @@ int main()
     int q = a / b; // displays quotient
     std::cout << q << "\n";
     // As a and b are integers, result will be an integer.
-    // But in reality the division of 10 and 3 will result in a floating point number (no. with a decimel).
+    // But in reality the division of 10 and 3 will result in a floating point number (no. with a decimal).
     // Even if the data type of c is double, then also we get 3 because the result of division of 2 integers is always an integer.
     // We have to convert either a or b to double and q to double.
     // If q is not of double type and a or b is of double type then also the result will be of integer type as q can't store value of double type.

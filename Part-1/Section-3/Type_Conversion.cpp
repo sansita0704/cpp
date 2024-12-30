@@ -29,9 +29,9 @@ int main()
     // int is less precise and occupies less space so this conversion may or may not result in data loss.
 
     // Whenever there is a possibility of data loss, it is a best practice to use type casting through which we tell the compiler to convert a value from one data type to other.
-    // It is like we are explicitely telling the compiler that it is ok if we are having some data loss.
+    // It is like we are explicitly telling the compiler that it is ok if we are having some data loss.
 
-    int s = x + (int)y;  // c-style casting
+    int s = x + (int)y; // c-style casting
     cout << s << endl;
     // in () we write the target type.
     // Not all conversions are possible.
@@ -40,19 +40,19 @@ int main()
     // That's why there is another type of casting known as C++ casting.
     // Through which we can check any error at compile-time only so we don't have to run the code each time.
 
-    int e = x + static_cast<int>(y);  // C++ casting
-    // It is like calling a function 
-    // Here, static_cast is an operator and in <> we write the target type. 
+    int e = x + static_cast<int>(y); // C++ casting
+    // It is like calling a function
+    // Here, static_cast is an operator and in <> we write the target type.
     cout << e << endl;
 
     int p = 10;
     int q = 3;
-    double r = p / static_cast<double>(q);  
+    double r = p / static_cast<double>(q);
     // If we don't do casting r = 3.
     // To get exact ans, we convert either p or q to double so that the ans is double.
     cout << r << endl;
 
-    // So, we only need one of the operand to be a decimel type so that the ans is of decimel type.
+    // So, we only need one of the operand to be a decimal type so that the ans is of decimal type.
 
     return 0;
 }

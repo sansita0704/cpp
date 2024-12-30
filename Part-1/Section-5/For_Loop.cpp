@@ -11,7 +11,7 @@ int main()
     // It's a convention to call this variable i.
     // 2. Condition: We give a boolean expression or condition.
     // Till the condition is true the loop will run.
-    // 3. Updation: It determines how the value of i changes after every iteration or repeatation.
+    // 3. Updation: It determines how the value of i changes after every iteration or repetition.
     // Then we add the statements that we want to repeat.
 
     for (int i = 0; i < 5; i++)

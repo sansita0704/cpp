@@ -7,7 +7,7 @@ using namespace std;
 // string& name - This is called a reference parameter.
 // It references an existing value.
 
-void greet(const string& name)
+void greet(const string &name)
 // When we are not using reference parameter here entire string is copied again in the memory at another location.
 // Hence, increase in time and space in memory and decrease in efficiency.
 
@@ -23,7 +23,7 @@ void increasePrice(double &price)
 }
 // Using &, address of the price variable is passed to increasePrice().
 // Then the compiler creates an alias of price variable named price which will refer to the same address as of the price variable of the main() and then increasePrice() modifies alias of the price.
-// As both the price variables are essentialliy on the same location, changing one will directly affect the other.
+// As both the price variables are essentially on the same location, changing one will directly affect the other.
 // As a result our original price variable is modified.
 // price (increasePrice() variable) acts as an alias or another name for the original variable.
 // i.e their names may or may not be diff but their address or location is same in the memory.

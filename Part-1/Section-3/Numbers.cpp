@@ -5,15 +5,15 @@ using namespace std;
 int main()
 {
     // Go to Screenshots folder to know about different types of number systems.
-    // We use hexadecimel numbers to represent colours.
+    // We use hexadecimal numbers to represent colours.
 
     int num = 0b11111111;
-    // To represent any no. in binary system we use '0b'  
-    // 255 in decimel is equivalent to 11111111(8 times 1) in binary.
+    // To represent any no. in binary system we use '0b'
+    // 255 in decimal is equivalent to 11111111(8 times 1) in binary.
     cout << num << endl;
 
     int n = 0xff;
-    // To represent any no. in hexadecimel system we use '0x' 
+    // To represent any no. in hexadecimal system we use '0x'
     // 0xff is same as 0xFF
     cout << n << endl;
 
@@ -26,7 +26,7 @@ int main()
     cout << a << endl;
 
     unsigned int b = 0;
-    b--;  // It will take garbage value.
+    b--; // It will take garbage value.
     cout << b << endl;
 
     // So we should try to not use unsigned keyword as much as possible.

@@ -14,9 +14,9 @@ double calculateTax(int sales)
 
 int main()
 {
-    // Local Variable is local to a particular func i.e they are accesible in that func or block of code only.
+    // Local Variable is local to a particular func i.e they are accessible in that func or block of code only.
     // they are said to have local scope.
-    // Global Variable is declared outside all the func so they are accesible by all the func.
+    // Global Variable is declared outside all the func so they are accessible by all the func.
     // They can be very difficult to manage sometimes so as a best practice we should avoid them as much as possible or use global constant instead of variables.
 
     int sales = 10000;

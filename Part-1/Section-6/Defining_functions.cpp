@@ -43,14 +43,14 @@ int max(int first, int second)
     /*
     if (first > second)
         return first;
-    
+
     return second;
     */
     // We do not need an else clause because if the condition is true, control will pass to the main().
     // So, the code written below will not be executed.
 
     // We can make it more shorter using conditional operator.
-    
+
     return (first > second) ? first : second;
 }
 

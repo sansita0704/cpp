@@ -14,10 +14,10 @@ int main()
     do // {} are always used
     {
         cout << "Number: ";
-        // In C++ a variable is accesible only in the block in which it is declared.
+        // In C++ a variable is accessible only in the block in which it is declared.
         // If we declare number here then it will be only valid in the body of do.
         // As a result, we will not be able to use it in while statement.
-        // When we declare it in main() it is accesible anywhere in main().
+        // When we declare it in main() it is accessible anywhere in main().
 
         cin >> number;
     } while (number < 1 || number > 5);

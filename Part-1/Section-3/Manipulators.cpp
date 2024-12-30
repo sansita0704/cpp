@@ -8,7 +8,7 @@ int main()
 {
      cout << "Spring" << "Nice" << endl
           << "Summer" << "Hot" << endl;
-     // To organise these labels into columns we use stream manipulators.
+     // To organize these labels into columns we use stream manipulators.
      // A manipulator is a function which can be used to modify/manipulate a stream.
 
      cout << left;
@@ -35,8 +35,8 @@ int main()
           << 4.575 << endl;
      /*
      - fixed manipulator is used to print a floating point no.
-     - It displays 6 digits after decimel point.
-     - setprecision() is used to limit/specify the no. of digits after decimel.
+     - It displays 6 digits after decimal point.
+     - setprecision() is used to limit/specify the no. of digits after decimal.
      - fixed and setprecision manipulators are sticky manipulators.
      */
 

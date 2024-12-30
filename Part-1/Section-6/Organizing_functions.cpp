@@ -13,8 +13,8 @@ using std::cout, std::cin;
 
 int main()
 {
-    // As we have more and more functions in one file it gets difficult to organise it so we divide our project in diff files each performing a task.
-    // Separarting func in files makes our main file smaller hence easy to maintain.
+    // As we have more and more functions in one file it gets difficult to organize it so we divide our project in diff files each performing a task.
+    // Separating func in files makes our main file smaller hence easy to maintain.
     // Also when we have one task in one file we can reuse that file in any other project.
 
     greet("Sansita");

@@ -7,7 +7,7 @@
 
 namespace messaging
 {
-    // Function declaration or prototype
+    // Function declaration or prototype.
     void greet(std::string name);
 }
 
@@ -25,8 +25,7 @@ namespace messaging
 
 • Here's how these directives work:
 
-1. #ifndef (if not defined): This directive checks if a particular const is not defined. If the specified const is not defined,
-the block of code following the #ifndef directive is processed.
+1. #ifndef (if not defined): This directive checks if a particular const is not defined. If the specified const is not defined, the block of code following the #ifndef directive is processed.
 
 2. #define: This directive defines the const specified in the #ifndef directive.
 

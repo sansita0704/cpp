@@ -12,7 +12,7 @@ int main()
     */
     // If we have to add any extra element in array in future then we have to change the condition.
     // So, to make it general, we use sizeof operator.
-    // sizeof(numbers) will return the no. of bytes occupied by the array 'numbers' = 3 * no. of bytes occupied by an int. 
+    // sizeof(numbers) will return the no. of bytes occupied by the array 'numbers' = 3 * no. of bytes occupied by an int.
 
     for (int i = 0; i < sizeof(numbers) / sizeof(int); i++)
         // sizeof(numbers): 12
@@ -26,7 +26,7 @@ int main()
         cout << number << endl;
     // The loop variable number is going to hold any 1 item from the array in each iteration.
     // ':' is the range-based for loop syntax, which specifies that number will be assigned to the each element in numbers one by one.
-    // And then it will be printed on a seperate line.
+    // And then it will be printed on a separate line.
     // Here, we don't work with index rather we work on actual integers.
 
     // Range based for loop on strings.

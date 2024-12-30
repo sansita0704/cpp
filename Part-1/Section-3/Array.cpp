@@ -14,11 +14,11 @@ int main()
     // We can access these using their index.
     // If we don't initialise it, it's elements will be initialized to 0.
     // Index of first element of array is 0
-    // Index of last elememt is = (size of array - 1)
+    // Index of last element is = (size of array - 1)
 
     cout << numbers << endl;
     // It will display address of the array.
-    // The output is in hexadecimel no. as it starts with 0x.
+    // The output is in hexadecimal no. as it starts with 0x.
     // The no. written after 0x is the address of the array in the memory.
 
     cout << numbers[5] << endl;
@@ -28,13 +28,13 @@ int main()
     numbers[1] = 10;
     cout << numbers[1] << endl;
 
-    // Initialisation of an array
+    // Initialisation of an array.
     int array[] = {10, 39, 49};
     cout << array[1] << endl;
 
     int arr[5] = {1, 4};
     // If we have all the values of array then we do not have to give the size of the array.
-    // As the compiler will determine size by itslf.
+    // As the compiler will determine size by itself.
     // But if we want to reserve the space for some integers then give the size and initialize others.
     // As a result remaining integers will be initialised to 0 by default.
     cout << arr[3] << endl;

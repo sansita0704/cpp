@@ -19,12 +19,12 @@ int main()
     cout << "Total Sales: $" << sales << "\n";
 
     const double stateTaxRate = 0.04;
-    // Avoid writing 0.04 directly as it makes difficult to understand the code. 
+    // Avoid writing 0.04 directly as it makes difficult to understand the code.
     // Also if, in future, we have to change its value we do not have to edit the whole code instead just edit the initialisation.
     // By declaring the rate as a constant, we can't assign any other value to that in b/w the code
     double stateTax = sales * stateTaxRate;
     cout << "State Tax: $" << stateTax << "\n";
-    
+
     const double countyTaxRate = 0.02;
     double countyTax = sales * countyTaxRate;
     cout << "County Tax: $" << countyTax << "\n";
@@ -36,6 +36,6 @@ int main()
     // Use double data type for monetary values.
     // Separate code having different purpose using a line break.
     // Name of the variables should be meaningful.
-    
+
     return 0;
 }

@@ -16,7 +16,7 @@ int main()
     double price = 100;
     increasePrice(price);
     cout << price << endl;
-    
+
     // When increasePrice() is called, a copy of the value stored in the price variable is taken and is stored in the price variable declared in the body of increasePrice()
     // After updating the value, it is stored in the price variable(increasePrice function's local variable).
     // In the main(), we are printing price (main function's local variable) that's why we can't see the updated price.

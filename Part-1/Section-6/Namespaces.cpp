@@ -3,10 +3,10 @@
 using namespace std;
 
 // Namespaces are like buckets in which we can place our functions in.
-// Namespaces are used to group related classes, functions and variables together, providing a way to organize
-// Also they help prevent naming conflicts, that means we can write functions having same name but performing different tas in a seperate namespace.
+// Namespaces are used to group related classes, functions and variables together, providing a way to organize.
+// Also they help prevent naming conflicts, that means we can write functions having same name but performing different tasks in a separate namespace.
 // Hence both of them will be diff from each other.
-// e.g. - std namespace contains functions, classes defined in standard library
+// e.g. - std namespace contains functions, classes defined in standard library.
 // string class is defined in std so if we create another string class that will not conflict with the string class stored in std.
 // We use namespace keyword to define a namespace.
 
@@ -46,10 +46,10 @@ int main()
     cout << math1::sub(4, 5) << endl;
 
     // If we have to call func from the namespace multiple times then we have to write name of the namespace again and again.
-    // So, to simplify our code aur reduce repetition we include the namespace at the top of the code only.
+    // So, to simplify our code aur reduce repetition, we include the namespace at the top of the code only.
 
     cout << mul(4.9, 3.0) << endl;
     cout << math2::add(4, 3) << endl;
-    
+
     return 0;
 }

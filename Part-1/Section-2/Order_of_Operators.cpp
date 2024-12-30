@@ -2,7 +2,7 @@
 
 int main()
 {
-    // Order of operators: the operator which is higher in order will be evaluted first.
+    // Order of operators: the operator which is higher in order will be evaluated first.
     // * and /
     // + and -
     // This order of evaluation can be changed using ()

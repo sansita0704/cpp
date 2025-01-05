@@ -38,7 +38,7 @@ int main()
     string names = "John";
     if (names < name)
         cout << "less than" << endl;
-    // names comes alphabatically first from name so condition is true.
+    // names comes alphabetically first from name so condition is true.
 
     if (name.front() == 's')
         cout << "Starts with s" << endl;

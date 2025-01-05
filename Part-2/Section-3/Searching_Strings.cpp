@@ -7,10 +7,10 @@ int main()
     string name = "San,sita,";
 
     cout << name.find('a') << endl;
-    // Returns the position/index of first occurence of given character.
+    // Returns the position/index of first occurrence of given character.
 
     cout << name.find('a', 2) << endl;
-    // Returns the position/index of first occurence of given character from the given position.
+    // Returns the position/index of first occurrence of given character from the given position.
     // So, here searching will start from 2nd position (i.e from 'n').
 
     cout << name.find('A') << endl;
@@ -27,18 +27,18 @@ int main()
         cout << "Doesn't exist" << endl;
 
     cout << name.find("sita") << endl;
-    // Returns the first occurence of the string "sita" in name.
+    // Returns the first occurrence of the string "sita" in name.
 
     cout << name.rfind('a') << endl;
     // reverse find() works just like find() but searches from end of the string.
-    // Hence, returns first occurence of the given character from reverse dir.
+    // Hence, returns first occurrence of the given character from reverse dir.
 
     cout << name.find_first_of(",.;") << endl;
     // It is similar to find() but it can be used to find set of characters.
     // So, if 1st character is not found then it will start to search for next character.
 
     cout << name.find_last_of(",.;") << endl;
-    // It is similar to rfind() so it finds the last occurence of a character in a given string.
+    // It is similar to rfind() so it finds the last occurrence of a character in a given string.
 
     cout << name.find_first_not_of(",.;") << endl;
     // It starts from the start of the string and returns the position/index of the character diff from the given character.

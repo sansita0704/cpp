@@ -16,7 +16,7 @@ struct Movie
     bool isPopular;
 
     // << and == these operators are implemented for built-in data types so we can't use them for structures
-    // to implement them for structures we need to overload them which is known as operator overloading
+    // To implement them for structures we need to overload them which is known as operator overloading
     // To overload an operator, we use operator keyword and define a func as a member func of a particular structure.
     // Doing this, we tell the compiler to perform that specific operation whenever it encounters that operator with objects of that structure.
     // Now, when we use '==' in main() with Movie objects, the compiler knows to look for an overloaded operator func which is defining the operation to perform with the type of objects used.

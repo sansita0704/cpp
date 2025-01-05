@@ -13,7 +13,7 @@ int main()
     // It will allocate the space for 5 integers right next to each-other in memory at the same address/location.
     // We can access these using their index.
     // If we don't initialise it, it's elements will be initialized to 0.
-    // Index of first element of array is 0
+    // Index of first element of array is 0.
     // Index of last element is = (size of array - 1)
 
     cout << numbers << endl;
@@ -40,7 +40,7 @@ int main()
     cout << arr[3] << endl;
 
     int ar[4] = {};
-    // all the elements will be initialized to 0.
+    // All the elements will be initialized to 0.
 
     // Exercise
 
@@ -56,5 +56,6 @@ int main()
     cin >> names[2];
 
     cout << names[0];
+
     return 0;
 }

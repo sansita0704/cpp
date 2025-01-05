@@ -9,7 +9,7 @@ int main()
     file.open("file.txt", ios::in | ios::out | ios::app | ios::binary);
     // Arguments:
     // 1. Name of the file.
-    // 2. Modes: Each mode is separted by '|'
+    // 2. Modes: Each mode is separated by '|'
     // ios::in: To open the file in reading mode.
     // ios::out: To open the file in writing mode.
     // ios::app: To append to the file.

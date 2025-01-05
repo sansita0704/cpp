@@ -10,7 +10,7 @@ struct Movie // PascalCase
 };
 // We are defining this structure outside the main() so that we can use it reuse in multiple functions.
 // With this definition, we are not allocating any memory for the variables.
-// We are just telling the compiler that a Movie structure containes these variables.
+// We are just telling the compiler that a Movie structure contains these variables.
 // We do not have to initialize title and isPopular because, by default, strings are initialized to null string and booleans are initialized to false.
 
 struct Customer

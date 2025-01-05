@@ -23,9 +23,9 @@ int main()
     int matrix[rows][columns] = {
         {11, 12, 13},
         {21, 22, 23}};
-        
+
     printMatrix(matrix);
-    // don't need to pass the size of the array.
+    // No need to pass the size of the array.
 
     return 0;
 }

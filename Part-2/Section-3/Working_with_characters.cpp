@@ -32,7 +32,7 @@ int main()
     cout << (char)toupper('a') << endl;
     cout << (char)toupper('*') << endl;
     // Here, we can use C-style casting because there is no problem for checking that if the conversion is happening or not.
-    // If we pass any non-alphabatical character then that character gets displayed so in one sense conversion is taking place everytime.
+    // If we pass any non-alphabetical character then that character gets displayed so in one sense conversion is taking place everytime.
 
     cout << (char)tolower('A') << endl;
 

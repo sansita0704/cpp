@@ -16,13 +16,13 @@ int main()
         Rectangle(),
         Rectangle(10, 20),
         Rectangle(10, 20, "red")};
-    // This is one way of intializing an array of objects where we are writing the class name and explicitly calling the constructor.
+    // This is one way of initializing an array of objects where we are writing the class name and explicitly calling the constructor.
 
     Rectangle rectangles2[] = {
         {},
         {10, 20},
         {10, 20, "red"}};
-    // This is another way of intializing an array of objects where we are using brace-initialiser method and directly providing the values.
+    // This is another way of initializing an array of objects where we are using brace-initialiser method and directly providing the values.
     // Here, compiler knows that this array contains objects of Rectangle class.
     // So, when we give these values, it will pass these values to one of the constructor of the Rectangle class.
 

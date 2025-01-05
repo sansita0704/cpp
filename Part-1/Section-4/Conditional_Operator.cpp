@@ -10,8 +10,8 @@ int main()
 
     int sales = 9000;
     double commission = (sales > 10000) ? 0.1 : 0.05;
-    // If the give condition evaluates to true the the value written after ? is stored in commision.
-    // If the give condition evaluates to false the the value written after : is stored in commision.
+    // If the give condition evaluates to true the the value written after ? is stored in commission.
+    // If the give condition evaluates to false the the value written after : is stored in commission.
 
     /*
     if (sales > 10'000)

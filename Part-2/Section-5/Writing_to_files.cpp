@@ -36,7 +36,7 @@ int main()
 
         file.close();
         // To release OS resources allocated for using this stream.
-        // If we don't do so, our files will not be accesible to other programs.
+        // If we don't do so, our files will not be accessible to other programs.
 
         // Similar to input streams, output streams also has a buffer.
         // So, before going to console, data first goes to buffer and then buffer gets flushed out and data goes to console.

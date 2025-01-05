@@ -11,7 +11,7 @@ int main()
     // Binary files are not human readable as they store data in the same way as it is stored in the memory.
     // We deal with them when we have to store non-textual data like numbers.
     // e.g. - An image is made up of pixels and these pixels have numeric values.
-    // That's why, images are representated using binary files.
+    // That's why, images are represented using binary files.
 
     int numbers[] = {1'000'000, 2'000'000, 3'000'000};
 

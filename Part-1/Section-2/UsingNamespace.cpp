@@ -1,9 +1,8 @@
 #include <iostream>
 
 using namespace std;
-// using is a directive.
-// Now std is defined, so we don't have to use it before cout and endl.
-// i.e without writing it again and again we can access the objects from it.
+// 'using' is a directive.
+// Now std is defined, so we don't have to use it before cout and endl i.e without writing it again and again we can access the objects from it.
 
 int main()
 {
@@ -21,7 +20,8 @@ int main()
     const double stateTaxRate = 0.04;
     // Avoid writing 0.04 directly as it makes difficult to understand the code.
     // Also if, in future, we have to change its value we do not have to edit the whole code instead just edit the initialisation.
-    // By declaring the rate as a constant, we can't assign any other value to that in b/w the code
+    // By declaring the rate as a constant, we can't assign any other value to that in b/w the code.
+    
     double stateTax = sales * stateTaxRate;
     cout << "State Tax: $" << stateTax << "\n";
 

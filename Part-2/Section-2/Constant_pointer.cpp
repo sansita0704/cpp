@@ -16,7 +16,7 @@ int main()
 
     int y = 20;
     ptr_1 = &y;
-    // Here, x is a const but ptr is not because initally, it was pointing to x but now it is pointing to y.
+    // Here, x is a const but ptr is not because initially, it was pointing to x but now it is pointing to y.
 
     // 2. Pointer is const
 

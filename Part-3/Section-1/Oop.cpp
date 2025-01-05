@@ -31,7 +31,7 @@ int main()
     // In Functional Paradigm, we build software by creating and composing 'functions' while in Object-oriented programming, we build software by creating objects.
     // There is nothing like best programming paradigm, each of them has its pros and cons and are used to solve specific problems.
 
-    // In OOP, each object has a clear responsibility just like the workers of a restaurent.
+    // In OOP, each object has a clear responsibility just like the workers of a restaurant.
     // An Object is a software entity or a building block that has attributes (properties) and functions (methods).
     // It is an instance of a class.
     // Class is a blueprint or recipe for creating objects.

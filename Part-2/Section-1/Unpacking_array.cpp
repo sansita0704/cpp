@@ -8,7 +8,7 @@ int main()
     // C++: structured binding
     // JavaScript: destructuring
     // python: unpacking
-    // All these terms are used for same technique by which we can unpack the array and store each element of array in seperate variable.
+    // All these terms are used for same technique by which we can unpack the array and store each element of array in separate variable.
 
     auto [x, y, z] = values;
     /*

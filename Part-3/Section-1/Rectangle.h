@@ -41,7 +41,7 @@ public:
     // Getter (accessor)
     int getWidth() const;
 
-    // Settor (mutator) (mutate means to change sth)
+    // Setter (mutator) (mutate means to change sth)
     void setWidth(int width);
 
     int getHeight() const;

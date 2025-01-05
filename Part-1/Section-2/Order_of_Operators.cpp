@@ -15,10 +15,11 @@ int main()
     int x = 10;
     double y = 5;
     double z = (x + 10) / (3 * y);
-    // the whole expression 3 * y is our denominator so enclose it in ()
-    // if we do not enclose it in () 3 will be the denominator and then the result will be multiplied by y
+    // The whole expression 3 * y is our denominator so enclose it in ()
+    // If we do not enclose it in () 3 will be the denominator and then the result will be multiplied by y
     // i.e 'z = (x + 10) / 3 * y' is incorrect
 
     std::cout << z << "\n";
+
     return 0;
 }

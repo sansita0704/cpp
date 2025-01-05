@@ -38,18 +38,18 @@ int main()
     // The auto keyword in C++ automatically detects the data type and assigns a data type to the variable.
     // The compiler analyses the variable's data type by looking at its initialization.
 
-    // We can also initialize a variable using {}
     int number = 3.5;
     cout << number << endl;
     // number = 3 as it is of int type.
 
+    // We can also initialize a variable using {}
     // int number {4.6};
     // But when we use {} to initialize the variable, we get a compilation error.
     // So, it prevents us from initializing the variable with wrong value.
 
     // int n {};
-    // n will be assigned 0 automatically
-    // If {} are not used it would take any garbage value
+    // n will be assigned 0 automatically.
+    // If {} are not used it would take any garbage value.
 
     return 0;
 }

@@ -17,6 +17,7 @@ int main()
 
     cout << numeric_limits<long long>::min() << endl;
     // after :: we can access the func defined in that class
+
     cout << numeric_limits<long long>::max() << endl;
     cout << numeric_limits<size_t>::min() << endl;
     cout << numeric_limits<size_t>::max() << endl;

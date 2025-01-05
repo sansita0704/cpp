@@ -25,6 +25,7 @@ int main()
 // Comments are used to clarify our code.
 // It makes the code easier to understand.
 // They are not compiled.
+
 /* ... */
-// used to give multi line comment.
-// use comments to explain why(s) and how(s)
+// Used to give multi line comment.
+// Use comments to explain why(s) and how(s)

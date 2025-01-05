@@ -17,12 +17,12 @@ int main()
      cout << isNewUser << endl
           << isOldUser << endl;
 
-     // To see true and false on console we can use a stream manipulator boolalpha
      cout << boolalpha << isNewUser << endl
           << isOldUser << endl;
+     // To see true and false on console we can use a stream manipulator 'boolalpha'.
      // boolalpha is a sticky manipulator so it will be applied to all the boolean variables written after it.
+     // To turn it off, we can use noboolalpha manipulator.
 
-     // to turn boolalpha manipulator off, we can use noboolalpha manipulator
      cout << noboolalpha << isNewUser << endl
           << isOldUser << endl;
 

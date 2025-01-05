@@ -72,7 +72,7 @@ Rectangle::Rectangle(int width, int height)
 {
     objectsCount++;
     // Whenever an object is created, this constructor will be called.
-    // So, by increaming the variable we can count the no. of objects.
+    // So, by increasing the variable we can count the no. of objects.
 
     cout << "Constructing a Rectangle" << endl;
     setWidth(width);

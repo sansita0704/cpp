@@ -20,12 +20,13 @@ int main()
 
     int r = a % b; // displays remainder
     std::cout << r << "\n";
-    // Both the operand should be int because % operator yields the remainder after integer division i.e it works only on integer values
+    // Both the operand should be int because modulo or modulus(%) operator yields the remainder after integer division i.e it works only on integer values
     // Or we can say that % operator displays the remainder after performing division on integers.
 
     a = a + 5;
     // First a + 5 will be evaluated, then the result will be stored in a.
 
     std::cout << a << "\n";
+
     return 0;
 }

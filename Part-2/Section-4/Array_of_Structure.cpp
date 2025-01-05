@@ -35,7 +35,7 @@ int main()
     // To loop over this vector
 
     for (const auto &movie : movies)
-        // const ensures that movie object can't be modfied
+        // const ensures that movie object can't be modified
         // In each iteration, each element of movies vector i.e an object of Movie type will be stored in movie object, if & is not there.
         // Using &, movie object will act like a reference to the elements of movies vector.
 

@@ -26,8 +26,8 @@ int main()
 
     // Streams are sequence of bytes which acts as a mediator for data flow between program and input or output device.
     // It can be thought as a pipeline that can either send data from one place to another or can retrieve it.
-    // Data Source (Input Stream): It can bring data into the program using an externel source.
-    // Data Destination (Output Stream): It can send data to an externel destination.
+    // Data Source (Input Stream): It can bring data into the program using an external source.
+    // Data Destination (Output Stream): It can send data to an external destination.
 
     cout << "First: ";
     int first;

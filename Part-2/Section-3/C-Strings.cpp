@@ -37,7 +37,7 @@ int main()
     name of an array is a pointer to its 1st element but here when we print name and myName whole string is displayed
     as cout is defined in such a way that whenever we display name of character array using cout, it does not display address
     instead it treats array as a null-terminated string so it starts to display its character stored at the address to which the
-    pointer is pointing to and countinues to displays characters stored after that until it encounters \0
+    pointer is pointing to and continues to displays characters stored after that until it encounters \0
     */
 
     // All the functions required to work with c-strings are defined in cstring file
@@ -63,9 +63,9 @@ int main()
     cout << myName << endl;
 
     int x = strcmp(myName, name);
-    // If name comes 1st alphabatically then it will return a negative value.
+    // If name comes 1st alphabetically then it will return a negative value.
     // When both are equal then it will return 0.
-    // If myName comes 1st alphabatically then it will return a positive value.
+    // If myName comes 1st alphabetically then it will return a positive value.
 
     cout << x << endl;
 

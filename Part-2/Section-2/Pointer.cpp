@@ -4,13 +4,11 @@ using namespace std;
 
 int main()
 {
-    /*
     // Pointer is a special variable that holds the address of the another variable.
     // We use pointers for:
-    - Efficiently passing large objects.
-    - Dynamic memory allocation.
-    - Enabling polymorphism.
-    */
+    // 1. Efficiently passing large objects.
+    // 2. Dynamic memory allocation.
+    // 3. Enabling polymorphism.
 
     int number = 10;
     cout << &number << endl;
@@ -18,7 +16,7 @@ int main()
     // The address of a variable can change in every execution because the memory layout of a program is not guaranteed to be the same every time it runs.
 
     int *ptr_1 = &number;
-    // '*' representes a pointer.
+    // '*' represents a pointer.
     // int means that ptr can only store the address of an int variable i.e it can only point to an int.
 
     cout << ptr_1 << endl;

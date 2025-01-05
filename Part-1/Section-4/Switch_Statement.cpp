@@ -38,7 +38,7 @@ int main()
     /*
     • default label
     - The statement we write in default label are executed when none of the other cases are executed.
-    • Usage of break statment:
+    • Usage of break statement:
     - We write it to terminate the switch statement.
     - If we don't add break then subsequent statements will also get executed even though the value of the variable is not matched.
     */

@@ -23,11 +23,13 @@ int main()
 
     /*
     int second[] = first;
-    */
+    /*
+
     /*
     int second[3];
     second = first;
     */
+
     // Both these block of code will give an error.
     // Because in C++, we can't assign an array to another array.
     // As the name of the array represents the address of the array so if we are writing second = first then in one way we are changing the address of the second array which is not possible.

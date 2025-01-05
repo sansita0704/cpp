@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> // short for io manipulator
+#include <iomanip> // short for io manipulator.
 // This file stores functions for manipulating streams.
 
 using namespace std;

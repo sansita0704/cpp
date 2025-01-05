@@ -43,7 +43,7 @@ int main()
 
     // "new int" - This expression returns an int ptr which points to a memory location in heap.
     // So we pass this ptr in ().
-    // The contructor of the class initializes the member variable of this object with this ptr.
+    // The constructor of the class initializes the member variable of this object with this ptr.
     // Now, we do not have to worry about releasing the memory.
     // It will be done by the destructor when main() finishes execution.
 

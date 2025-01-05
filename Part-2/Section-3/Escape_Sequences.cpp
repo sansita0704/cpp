@@ -4,11 +4,9 @@ using namespace std;
 
 int main()
 {
-    /*
     // An escape sequence is the sequence of characters that are written represent some special characters.
     // '\\' is an escape sequence.
     // Using a backslash, we can escape the following character which can be any special character.
-    */
 
     string str = "c:\\my folder";
     // In string literal '\' has a special meaning so to include '\' in string we need to use '\\'.

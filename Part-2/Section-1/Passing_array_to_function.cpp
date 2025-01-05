@@ -23,7 +23,7 @@ void printNumbers(int numbers[], int size)
 // So, how will the size() determine the no. of elements stored in it by just knowing the address of 1st element.
 // Hence we have to pass an extra parameter i.e size of the array.
 
-// But in main(), the compiler knows the size of the array at compile-time that's why for loop works there but in a seperate func we have to give size of the array.
+// But in main(), the compiler knows the size of the array at compile-time that's why for loop works there but in a separate func we have to give size of the array.
 
 int main()
 {

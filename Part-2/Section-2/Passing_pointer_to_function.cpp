@@ -2,8 +2,8 @@
 
 using namespace std;
 
-void increaseprice(double *price)
-// We have deaclared a pointer as the parameter for this func.
+void increasePrice(double *price)
+// We have declared a pointer as the parameter for this func.
 {
     *price *= 1.2;
     // We can't multiply a ptr by a no.
@@ -23,7 +23,7 @@ void swap(int *first, int *second)
 int main()
 {
     double price = 100;
-    increaseprice(&price);
+    increasePrice(&price);
     // We need to add & as we can't initialize a ptr with a no.
     // So, we need to pass the address as an argument.
     // i.e double* ptr = 100 - error

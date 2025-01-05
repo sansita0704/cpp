@@ -44,4 +44,6 @@ int main()
             factorial *= i;
         cout << "The factorial of " << number << " is: " << factorial << endl;
     }
+
+    return 0;
 }

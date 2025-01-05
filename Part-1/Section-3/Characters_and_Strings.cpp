@@ -10,7 +10,7 @@ int main()
 	// char is used for storing a single character.
 	// A character is represented by ''.
 	// Internally, these characters are represented by numbers because computers don't understand characters.
-	// So, every character has a numeric representation
+	// So, every character has a numeric representation.
 
 	// So, instead of initializing ch with b we can also write 98 (numeric representation of that character).
 	// But that is not a good way as someone else will not be able to understand what 98 represents.

@@ -16,10 +16,11 @@ int main()
     // So, using cout we can display a sequence of characters on the console window.
     // '<<' is known as stream insertion operator as it is used to insert something on the console screen.
     // double quotes is used to display a string of characters.
-    // endl stands for end of the line
+    // endl stands for end of the line.
 
     // Shortened way
     std::cout << "x = " << x << std::endl
               << "y = " << y;
+
     return 0;
 }

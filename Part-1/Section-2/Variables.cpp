@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 
 int main()
@@ -35,6 +36,6 @@ int main()
     b = temp;
     std::cout << a << "\n";
     std::cout << b << "\n";
-    
+
     return 0;
 }

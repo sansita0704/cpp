@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include "Widget.h"
 #include "TextBox.h"
@@ -17,7 +18,7 @@ int main()
     // 1. We can give a default constructor to the Widget class.
     // 2. If we do not want to have a default constructor, we can call the constructor of the base class in the constructor of derived class and pass a value there.
     // But this way there will be some constructor that will not be doing anything other than passing some value to the constructor of base class.
-    
+
     // To avoid this, we can inherit constructor of the base class.
     // By default, constructors are not inherited.
 

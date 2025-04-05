@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include "Array.h"
 
@@ -9,7 +10,8 @@ int main()
 
     Array array{10};
     array[0] = 1;
-    cout << array[10] << endl;
+    // cout << array[10] << endl;
+    // This will give error.
 
     return 0;
 }

@@ -26,6 +26,7 @@ Note: Whitespaces are generally ignored in C++ i.e. if we have one or ten spaces
 e.g. - iostream has the capability of taking input from the user and printing something on the screen.
 */
 
+#include <bits/stdc++.h>
 #include <iostream>
 
 int main()

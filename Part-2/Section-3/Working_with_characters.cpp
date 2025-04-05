@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 
 using namespace std;
@@ -40,7 +41,7 @@ int main()
 
     // if (input == 'x' || input == 'X')
     // this can be simplified as
-    
+
     if (tolower(input) == 'x')
         cout << "Valid" << endl;
 

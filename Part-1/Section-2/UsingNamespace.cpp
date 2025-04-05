@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 
 using namespace std;
@@ -21,7 +22,7 @@ int main()
     // Avoid writing 0.04 directly as it makes difficult to understand the code.
     // Also if, in future, we have to change its value we do not have to edit the whole code instead just edit the initialisation.
     // By declaring the rate as a constant, we can't assign any other value to that in b/w the code.
-    
+
     double stateTax = sales * stateTaxRate;
     cout << "State Tax: $" << stateTax << "\n";
 

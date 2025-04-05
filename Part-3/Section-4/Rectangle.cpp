@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include "Rectangle.h"
 #include <iostream>
 

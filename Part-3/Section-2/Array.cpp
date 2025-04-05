@@ -1,6 +1,8 @@
+#include <bits/stdc++.h>
 #include <stdexcept>
 // Common exceptions are defined in this file.
 
+#include <bits/stdc++.h>
 #include "Array.h"
 
 using namespace std;

@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include <iomanip> // short for io manipulator.
 // This file stores functions for manipulating streams.

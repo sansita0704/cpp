@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include "Array.h"
 #include "Pair.h"

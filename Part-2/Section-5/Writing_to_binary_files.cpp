@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include <fstream>
 
@@ -41,7 +42,7 @@ int main()
 
     if (file.is_open())
     {
-       file.write(reinterpret_cast<char*>(&numbers),  sizeof(numbers));
+        file.write(reinterpret_cast<char *>(&numbers), sizeof(numbers));
         // To write to a binary file, we use write method.
         // It has two parameters.
 
@@ -57,7 +58,7 @@ int main()
 
         // The size of the binary file = 12 bytes.
         // This is because an int takes 4 bytes of memory so 3 int takes 12 bytes of memory.
-        // That's why if we have a large amt of data, we should write it to a binary file. 
+        // That's why if we have a large amt of data, we should write it to a binary file.
 
         file.close();
     }

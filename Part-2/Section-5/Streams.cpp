@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 
 using namespace std;
@@ -62,7 +63,7 @@ int main()
 
     // But if the use enters more than 10 characters after the blank space then again same problem will occur.
     // To solve this, we can use numeric limits class to  access the max value of the streamsize variable i.e. the type of the first argument of ignore().
-    // Then pass it to ignore(). 
+    // Then pass it to ignore().
 
     return 0;
 }

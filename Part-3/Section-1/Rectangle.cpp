@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include "Rectangle.h"
 #include <iostream>
 // When we include files from the STL, we use '<>'.

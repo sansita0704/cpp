@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include <cmath>
 // cmath is a file in STL that has many mathematical functions defined in it.

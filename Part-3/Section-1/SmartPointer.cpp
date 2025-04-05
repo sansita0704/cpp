@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include "SmartPointer.h"
 
 SmartPointer::SmartPointer(int *ptr) : ptr{ptr}

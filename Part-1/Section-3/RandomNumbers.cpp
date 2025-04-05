@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include <cstdlib> // rand() and srand() is defined in this file of STL.
 #include <ctime>   // time() is defined in this file of STL.
